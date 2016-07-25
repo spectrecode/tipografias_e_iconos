@@ -1,3 +1,36 @@
-p	{
-	color: red;
+body	{
+	margin: 30px;
+}
+
+div	{
+	display: inline-block;
+	height: 400px;
+	width: 250px;
+	background-color: #FBFBFB;
+	text-align: center;
+	box-shadow: 3px 4px 0px -1px rgba(238,238,238,1);
+	
+}
+
+span	{
+	font-style: italic;
+}
+
+h3	{
+	position: absolute;
+}
+
+.contenido	{
+	position: absolute;
+	display: block;
+	word-wrap: break-word;
+
+}
+
+.corazon .contenido	{
+	color: #C5D0E6;
+}
+
+.corazon h3	{
+	color: #B3C2DF;
 }
