@@ -3,28 +3,28 @@ body	{
 }
 
 div	{
+	position: relative;
 	display: inline-block;
-	height: 400px;
-	width: 250px;
+	height: 300px;
+	width: 230px;
 	background-color: #FBFBFB;
 	text-align: center;
-	box-shadow: 3px 4px 0px -1px rgba(238,238,238,1);
-	
-}
-
-span	{
-	font-style: italic;
+	box-shadow: 3px 4px 0px -1px rgba(238,238,238,1);	
 }
 
 h3	{
 	position: absolute;
+	font-family: 'Fontdiner Swanky', cursive;
 }
 
 .contenido	{
+	font-family: 'Pacifico', cursive;
 	position: absolute;
 	display: block;
 	word-wrap: break-word;
-
+	line-height: 20px;
+	bottom: 0px;
+	height: auto;
 }
 
 .corazon .contenido	{
